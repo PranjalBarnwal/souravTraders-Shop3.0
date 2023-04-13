@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { GrClose } from "react-icons/gr";
+import "./../App.css"
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
   return (
     <div className="sticky top-0 flex p-2 bg-red-400 ">
-      <div className="flex-grow text-center ml-12 text-3xl">Sourav Traders</div>
+      <div className="flex-grow text-center ml-12 text-3xl font1">Sourav Traders</div>
 
       <div
         onClick={handleNav}
