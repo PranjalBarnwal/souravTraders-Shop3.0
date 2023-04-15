@@ -16,12 +16,12 @@
 
 
 .scroll_down{
-    height: 40px;
-    width: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: absolute;
+    height: 35px;
+    width: 25px;
+    border: 2px solid rgb(116, 116, 116);
+    position:  relative;
     left: 50%;
-    bottom: 20px;
+    bottom: -0px;
     border-radius: 50px;
     /* cursor:pointer; */
 }
@@ -31,14 +31,14 @@
     position: absolute;
     top: 20%;
     left: 50%;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(190, 190, 190);
     height: 10px;
     width: 10px;
     translate:-50%;
     rotate:45deg;
     border-top: transparent;
     border-left: transparent;
-    animation: scroll-down 1s ease-in-out infinite;
+    animation: scroll-down 2s ease-in-out infinite;
 }
 
 .scroll_down::after{

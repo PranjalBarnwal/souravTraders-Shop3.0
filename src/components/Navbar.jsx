@@ -6,12 +6,12 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
   return (
-    <div className="sticky top-0 flex p-2 bg-red-400 ">
+    <div className="sticky top-0 flex p-2 ">
       <div className="flex-grow text-center ml-12 text-3xl font1">Sourav Traders</div>
 
       <div
         onClick={handleNav}
-        className="ml-auto mr-10 text-3xl flex items-center"
+        className="ml-auto mr-10 sm:text-3xl text-xl flex items-center text-white"
       >
         {nav ? <GrClose className="z-10"/> : <RxHamburgerMenu />}
       </div>
